@@ -1,0 +1,13 @@
+image: atlassian/default-image:2
+
+pipelines:
+  custom:
+    renovate:
+      - step:
+        caches:
+          - node
+        script:
+          - git config --global user.email "botrenovate@gmail.com"
+          - git config --global user.name "botrenovate"
+          - npm install
+          - npm start

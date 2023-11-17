@@ -1,0 +1,12 @@
+{
+  "name": "renovate",
+  "version": "1.0.0",
+  "description": "Multi-language dependency update automation",
+  "private": true,
+  "scripts": {
+    "start": "renovate"
+  },
+  "devDependencies": {
+    "renovate": "^14.50.3"
+  }
+}
